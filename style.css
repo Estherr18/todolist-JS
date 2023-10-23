@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, 50%);
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,0.1);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+    margin: 12px 0;
+
+}
+
+.add-element{
+    margin: 12px 0;
+
+}
+
+input{
+    padding: 6px 4px;
+    width: 70%;
+
+}
+
+button{
+    padding: 7px 14px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.element-list{
+    height: 550px;
+    overflow-y: auto;
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,0.1);
+    border-radius: 3px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: pink;
+}
+
+li:hover{
+    background-color: black;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: magenta;
+}
